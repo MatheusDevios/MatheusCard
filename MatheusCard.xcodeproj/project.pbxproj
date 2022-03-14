@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		329DF5AB27DFAE13007E1415 /* MatheusCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329DF5AA27DFAE13007E1415 /* MatheusCardApp.swift */; };
+		329DF5AD27DFAE13007E1415 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329DF5AC27DFAE13007E1415 /* ContentView.swift */; };
+		329DF5AF27DFAE14007E1415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329DF5AE27DFAE14007E1415 /* Assets.xcassets */; };
+		329DF5B227DFAE14007E1415 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329DF5B127DFAE14007E1415 /* Preview Assets.xcassets */; };
+		329DF5BC27DFAE14007E1415 /* MatheusCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329DF5BB27DFAE14007E1415 /* MatheusCardTests.swift */; };
+		329DF5C627DFAE14007E1415 /* MatheusCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329DF5C527DFAE14007E1415 /* MatheusCardUITests.swift */; };
+		329DF5C827DFAE14007E1415 /* MatheusCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329DF5C727DFAE14007E1415 /* MatheusCardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		329DF5B827DFAE14007E1415 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 329DF59F27DFAE13007E1415 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 329DF5A627DFAE13007E1415;
+			remoteInfo = MatheusCard;
+		};
+		329DF5C227DFAE14007E1415 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 329DF59F27DFAE13007E1415 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 329DF5A627DFAE13007E1415;
+			remoteInfo = MatheusCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		329DF5A727DFAE13007E1415 /* MatheusCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatheusCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		329DF5AA27DFAE13007E1415 /* MatheusCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatheusCardApp.swift; sourceTree = "<group>"; };
+		329DF5AC27DFAE13007E1415 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		329DF5AE27DFAE14007E1415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		329DF5B127DFAE14007E1415 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		329DF5B727DFAE14007E1415 /* MatheusCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatheusCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		329DF5BB27DFAE14007E1415 /* MatheusCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatheusCardTests.swift; sourceTree = "<group>"; };
+		329DF5C127DFAE14007E1415 /* MatheusCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatheusCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		329DF5C527DFAE14007E1415 /* MatheusCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatheusCardUITests.swift; sourceTree = "<group>"; };
+		329DF5C727DFAE14007E1415 /* MatheusCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatheusCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		329DF5A427DFAE13007E1415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329DF5B427DFAE14007E1415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329DF5BE27DFAE14007E1415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		329DF59E27DFAE13007E1415 = {
+			isa = PBXGroup;
+			children = (
+				329DF5A927DFAE13007E1415 /* MatheusCard */,
+				329DF5BA27DFAE14007E1415 /* MatheusCardTests */,
+				329DF5C427DFAE14007E1415 /* MatheusCardUITests */,
+				329DF5A827DFAE13007E1415 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		329DF5A827DFAE13007E1415 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				329DF5A727DFAE13007E1415 /* MatheusCard.app */,
+				329DF5B727DFAE14007E1415 /* MatheusCardTests.xctest */,
+				329DF5C127DFAE14007E1415 /* MatheusCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		329DF5A927DFAE13007E1415 /* MatheusCard */ = {
+			isa = PBXGroup;
+			children = (
+				329DF5AA27DFAE13007E1415 /* MatheusCardApp.swift */,
+				329DF5AC27DFAE13007E1415 /* ContentView.swift */,
+				329DF5AE27DFAE14007E1415 /* Assets.xcassets */,
+				329DF5B027DFAE14007E1415 /* Preview Content */,
+			);
+			path = MatheusCard;
+			sourceTree = "<group>";
+		};
+		329DF5B027DFAE14007E1415 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				329DF5B127DFAE14007E1415 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		329DF5BA27DFAE14007E1415 /* MatheusCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				329DF5BB27DFAE14007E1415 /* MatheusCardTests.swift */,
+			);
+			path = MatheusCardTests;
+			sourceTree = "<group>";
+		};
+		329DF5C427DFAE14007E1415 /* MatheusCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				329DF5C527DFAE14007E1415 /* MatheusCardUITests.swift */,
+				329DF5C727DFAE14007E1415 /* MatheusCardUITestsLaunchTests.swift */,
+			);
+			path = MatheusCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		329DF5A627DFAE13007E1415 /* MatheusCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 329DF5CB27DFAE14007E1415 /* Build configuration list for PBXNativeTarget "MatheusCard" */;
+			buildPhases = (
+				329DF5A327DFAE13007E1415 /* Sources */,
+				329DF5A427DFAE13007E1415 /* Frameworks */,
+				329DF5A527DFAE13007E1415 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatheusCard;
+			productName = MatheusCard;
+			productReference = 329DF5A727DFAE13007E1415 /* MatheusCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		329DF5B627DFAE14007E1415 /* MatheusCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 329DF5CE27DFAE14007E1415 /* Build configuration list for PBXNativeTarget "MatheusCardTests" */;
+			buildPhases = (
+				329DF5B327DFAE14007E1415 /* Sources */,
+				329DF5B427DFAE14007E1415 /* Frameworks */,
+				329DF5B527DFAE14007E1415 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				329DF5B927DFAE14007E1415 /* PBXTargetDependency */,
+			);
+			name = MatheusCardTests;
+			productName = MatheusCardTests;
+			productReference = 329DF5B727DFAE14007E1415 /* MatheusCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		329DF5C027DFAE14007E1415 /* MatheusCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 329DF5D127DFAE14007E1415 /* Build configuration list for PBXNativeTarget "MatheusCardUITests" */;
+			buildPhases = (
+				329DF5BD27DFAE14007E1415 /* Sources */,
+				329DF5BE27DFAE14007E1415 /* Frameworks */,
+				329DF5BF27DFAE14007E1415 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				329DF5C327DFAE14007E1415 /* PBXTargetDependency */,
+			);
+			name = MatheusCardUITests;
+			productName = MatheusCardUITests;
+			productReference = 329DF5C127DFAE14007E1415 /* MatheusCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		329DF59F27DFAE13007E1415 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					329DF5A627DFAE13007E1415 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					329DF5B627DFAE14007E1415 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 329DF5A627DFAE13007E1415;
+					};
+					329DF5C027DFAE14007E1415 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 329DF5A627DFAE13007E1415;
+					};
+				};
+			};
+			buildConfigurationList = 329DF5A227DFAE13007E1415 /* Build configuration list for PBXProject "MatheusCard" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 329DF59E27DFAE13007E1415;
+			productRefGroup = 329DF5A827DFAE13007E1415 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				329DF5A627DFAE13007E1415 /* MatheusCard */,
+				329DF5B627DFAE14007E1415 /* MatheusCardTests */,
+				329DF5C027DFAE14007E1415 /* MatheusCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		329DF5A527DFAE13007E1415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329DF5B227DFAE14007E1415 /* Preview Assets.xcassets in Resources */,
+				329DF5AF27DFAE14007E1415 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329DF5B527DFAE14007E1415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329DF5BF27DFAE14007E1415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		329DF5A327DFAE13007E1415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329DF5AD27DFAE13007E1415 /* ContentView.swift in Sources */,
+				329DF5AB27DFAE13007E1415 /* MatheusCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329DF5B327DFAE14007E1415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329DF5BC27DFAE14007E1415 /* MatheusCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329DF5BD27DFAE14007E1415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329DF5C827DFAE14007E1415 /* MatheusCardUITestsLaunchTests.swift in Sources */,
+				329DF5C627DFAE14007E1415 /* MatheusCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		329DF5B927DFAE14007E1415 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 329DF5A627DFAE13007E1415 /* MatheusCard */;
+			targetProxy = 329DF5B827DFAE14007E1415 /* PBXContainerItemProxy */;
+		};
+		329DF5C327DFAE14007E1415 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 329DF5A627DFAE13007E1415 /* MatheusCard */;
+			targetProxy = 329DF5C227DFAE14007E1415 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		329DF5C927DFAE14007E1415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		329DF5CA27DFAE14007E1415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		329DF5CC27DFAE14007E1415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MatheusCard/Preview Content\"";
+				DEVELOPMENT_TEAM = 3DAS6NDXGC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MatheusDiniz.MatheusCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		329DF5CD27DFAE14007E1415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MatheusCard/Preview Content\"";
+				DEVELOPMENT_TEAM = 3DAS6NDXGC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MatheusDiniz.MatheusCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		329DF5CF27DFAE14007E1415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DAS6NDXGC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MatheusDiniz.MatheusCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatheusCard.app/MatheusCard";
+			};
+			name = Debug;
+		};
+		329DF5D027DFAE14007E1415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DAS6NDXGC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MatheusDiniz.MatheusCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatheusCard.app/MatheusCard";
+			};
+			name = Release;
+		};
+		329DF5D227DFAE14007E1415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DAS6NDXGC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MatheusDiniz.MatheusCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MatheusCard;
+			};
+			name = Debug;
+		};
+		329DF5D327DFAE14007E1415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DAS6NDXGC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MatheusDiniz.MatheusCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MatheusCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		329DF5A227DFAE13007E1415 /* Build configuration list for PBXProject "MatheusCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329DF5C927DFAE14007E1415 /* Debug */,
+				329DF5CA27DFAE14007E1415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		329DF5CB27DFAE14007E1415 /* Build configuration list for PBXNativeTarget "MatheusCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329DF5CC27DFAE14007E1415 /* Debug */,
+				329DF5CD27DFAE14007E1415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		329DF5CE27DFAE14007E1415 /* Build configuration list for PBXNativeTarget "MatheusCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329DF5CF27DFAE14007E1415 /* Debug */,
+				329DF5D027DFAE14007E1415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		329DF5D127DFAE14007E1415 /* Build configuration list for PBXNativeTarget "MatheusCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329DF5D227DFAE14007E1415 /* Debug */,
+				329DF5D327DFAE14007E1415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 329DF59F27DFAE13007E1415 /* Project object */;
+}
